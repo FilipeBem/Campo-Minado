@@ -1,0 +1,112 @@
+* {
+    font-family: verdana;
+    padding: 0%;
+    margin: 0%;
+    
+  }
+  
+#corpo{
+    background: url(bombas.png);
+    border: 1px solid black;
+}
+  
+
+  h1 {
+      text-align: center;
+  }
+  #div {
+      text-align: center;
+      border-style: none;
+      height: 1000px;
+  }
+  table {
+      margin: 1em auto;
+      border-collapse: collapse;
+  }
+  td {
+      border: 1px solid black;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      background-color: white;
+  }
+  .blocked, .flag {
+      background: lightgray;    
+  }
+  .n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8 {
+      background-color: #eee;
+  }
+  .n1 {
+      color: blue;
+  }
+  .n2 {
+      color: green;
+  }
+  .n3 {
+      color: red;
+  }
+  .n4 {
+      color: maroon;
+  }
+  .n5 {
+      color: blueviolet;
+  }
+  .n6 {
+      color: darkgoldenrod;
+  }
+  .n7 {
+      color: orange;
+  }
+  .n8 {
+      color: tomato;
+  }
+#reset{
+    display: inline-block;
+        height: 17px;
+        padding: 1px 2px;
+        line-height: 19px;
+        font-size: 17px;
+        background: #fff;
+        text-shadow: none;
+        font-weight: 900;
+        letter-spacing: 0;
+        border-radius: 6px;
+        margin-right: 1px;
+        border: 2px solid #d60909
+}
+#a{
+    text-decoration: none;
+    border-color: rgba(0, 0, 0,3);
+    color: rgb(8, 8, 0, 3);
+}
+#label{
+    display: inline-block;
+    height: 17px;
+    padding: 1px 2px;
+    line-height: 19px;
+    font-size: 17px;
+    background: #fff;
+    text-shadow: none;
+    font-weight: 900;
+    letter-spacing: 0;
+    border-radius: 6px;
+    margin-right: 1px;
+    border: 2px solid #d60909
+}
+#dificuldade{
+    border-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    height: 25px;
+    width: 20px;
+    padding: 1px 2px;
+    line-height: 19px;
+    font-size: 17px;
+    background: #fff;
+    text-shadow: none;
+    font-weight: 900;
+    letter-spacing: 0;
+    border-radius: 6px;
+    margin-right: 1px;
+    border: 2px solid #d60909
+}
